@@ -9,3 +9,5 @@ scroll down to the "permissions" header then press either microphone or camera a
 select what device you want to use from there
 
 If you want to use the software offline download index.html and open it with chrome
+
+Website: https://greatb5872.github.io/UsbVideoHtml/Index.html 
