@@ -7,3 +7,5 @@ to change your audio and video devices on chrome press the 3 dots in the top rig
 on the left press "privacy and security" then press site settings in the middle colum 
 scroll down to the "permissions" header then press either microphone or camera at the very top there schould be a drop down menu
 select what device you want to use from there
+
+If you want to use the software offline download index.html and open it with chrome
