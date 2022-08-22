@@ -10,4 +10,4 @@ select what device you want to use from there
 
 If you want to use the software offline download index.html and open it with chrome
 
-Website: https://greatb5872.github.io/UsbVideoHtml/Index.html 
+Website: https://Azertick.github.io/UsbVideoHtml/Index.html 
