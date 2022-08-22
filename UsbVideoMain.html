@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+margin: 0 0 0 0;
+color:#333;
+background-color:#222;
+background-image:url('allow.png');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:right top; 
+background-repeat: no-repeat; 
+} video { 
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: 100;
+background-size: cover;
+} canvas 
+</style>
+<script type="text/javascript">//<![CDATA[ 
+window.onload=function(){
+var video = null;
+var errorCallback = function(e) {
+console.log("Error setting up video:", e); };
+try{
+navigator.webkitGetUserMedia({video: true, audio: true}, function(localMediaStream) {
+video = document.querySelector('video');
+video.srcObject=localMediaStream;
+video.muted = true; //this prevents a webcam from echoing in the speakers
+video.controls = false; //show fullscreen control elsewhere
+}, errorCallback);
+}catch(e){
+console.log(e);
+console.log(navigator.webkitGetUserMedia);
+}
+}//]]>
+</script>
+<style type="text/css">.fc-ab-root { display: none !important } body > div.fc-ab-root { display: none !important } .fbs-auth__container.fbs-auth__adblock { display: none !important } .overlay-34_Kj { display: none !important } .wrapper-3AzfF { display: none !important } .fEy1Z2XT { display: none !important } .nytc---modal-window---windowContainer.nytc---modal-window---isShown.nytc---shared---blackBG { display: none !important } .tp-modal { display: none !important } .tp-backdrop.tp-active { display: none !important } .c-nudge__container.c-gate__container { display: none !important } .c-nudge__container.c-regGate__container { display: none !important } .css-n7r8pg { display: none !important } .css-1bd8bfl { display: none !important } .overlay__59af11e2 { display: none !important } .tp_modal { display: none !important } .tp-backdrop.tp-active { display: none !important } div[class^='sp_message_container'] { display: none !important } div[class^='sp_veil'] { display: none !important } </style>
+<body>
+<video autoplay=""></video>	
+<body>
