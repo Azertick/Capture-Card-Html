@@ -9,5 +9,7 @@ scroll down to the "permissions" header then press either microphone or camera a
 select what device you want to use from there
 
 If you want to use the software offline download index.html and open it with chrome
+This works for my generic usb capture card (https://www.amazon.com/AVERYN-Upgraded-Streaming-Compatible-A363/dp/B097D376BL) 
+I plan on adding features like built in device selection but i would also like for suggestions to be made.
 
 Website: https://Azertick.github.io/UsbVideoHtml/Index.html 
