@@ -1,4 +1,4 @@
-# UsbVideoHtml
+# Capture Card Html
 A Html site that lets you use a usb video device or capture card online and hear the audio from the device
 To use the audio option right click and press show all controls
 this will bring up all the extra options to enable audio press the muted speaker
