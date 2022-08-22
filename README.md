@@ -12,4 +12,4 @@ If you want to use the software offline download index.html and open it with chr
 This works for my generic usb capture card (https://www.amazon.com/AVERYN-Upgraded-Streaming-Compatible-A363/dp/B097D376BL) 
 I plan on adding features like built in device selection but i would also like for suggestions to be made.
 
-Website: https://Azertick.github.io/UsbVideoHtml/Index.html 
+Website: https://Azertick.github.io/Capture-Card-Html/Index.html 
